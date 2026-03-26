@@ -1,8 +1,16 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 p{
     margin-bottom: 50px;
 }
@@ -28,6 +36,7 @@ button{
     border-radius: 20px;
     
 }
+/* Estados Interactivos */
 button:hover{
     cursor: pointer;
     background-color: #0000003b;
